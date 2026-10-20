@@ -1,0 +1,27 @@
+TOOL0888	Nortek Aquadopp Doppler current profiler	L22
+TOOL0026	Aanderaa RCM 11 Recording Current Meter		L22   (SDN:L22::TOOL0026)
+TOOL0121	Aanderaa RCM 7/8 Recording Current Meter	L22
+TOOL0029	Aanderaa RCM 9/11 Recording Current Meter	L22
+TOOL0211	Aanderaa RCM 4/5 Recording Current Meter	L22
+TOOL0306	Aanderaa Seaguard Recording Current Meter	L22
+TOOL0154	Interocean S4 current meter			L22
+TOOL0835	Neil Brown Smart acoustic current meter		L22
+TOOL0057	Marsh McBirney 585 OEM electromagnetic flowmeter L22
+TOOL0583	NBA DNC-3 direct reading current meter		L22
+
+SDN:L05::115	115	current profilers	L05
+SDN:L05::114	114	current meters		L05
+
+related to (L22:TOOL0121  Aanderaa RCM 7/8 Recording Current Meter)
+
+SDN:P01::LCSAZZ01	Speed of water current (Eulerian measurement) in the water body, same as P09:HCSP	HORIZONTAL CURRENT SPEED
+
+SDN:P01::LCDAZZ01	The direction towards which Eulerian current in the water column is flowing.same as 	P09:HCDT DIRECTION REL. TRUE NORTH, Degrees True
+
+SDN:P01::LCDAEL01	Horizontal velocity of the water column (currents), water current (Eulerian measurement), correction to true North, Degrees True
+
+OTHER  P01
+
+SDN:P01::ADEPWI01	The altitude measured above the water surface expressed as a depth below water surface by multiplying the measured value by -1.  relative to water surface, meters	
+
+SDN:P01::PFDPAR01	The photosynthetically active photon flux density (PPFD) received by a sample from a natural or an artifical light source.electromagnetic radiation (PAR wavelengths), MicroEinsteins per square metre per second
