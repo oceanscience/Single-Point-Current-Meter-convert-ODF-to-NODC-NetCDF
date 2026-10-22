@@ -1,5 +1,5 @@
 # Single-Point-Current-Meter-convert-ODF-to-NODC-NetCDF
-Converts the ODF (Ocean Data Format) for moored Single Point Current Meter (MCM) time series data to a NetCDF format that is compliant with IOOS, ACDD and CF standards. The ODF format is an historic format being used in the Department of Fisheries and Oceans Canada. Code is written in R. The file MCTD_netCDF_format.docx outlines the variable attributes and global attributes.
+Converts the ODF (Ocean Data Format) for moored Single Point Current Meter (MCM) time series data to a NetCDF format that is compliant with IOOS, ACDD and CF standards. The ODF format is an historic format being used in the Department of Fisheries and Oceans Canada. Code is written in R. The file MCM_netCDF_format.docx outlines the variable attributes and global attributes.
 
 - INPUT: ODF files of moored moored Single Point Current Meter (MCM) data, GF3 Code Map_final_v2.csv, Shared_models_vessel_BIO.csv, 
 - OUTPUT: writes csv files saved in the processed folder; mooringprojects.csv, mooringprojectsh.csv, mooringships.csv, a map of mooring locations mooring_map.jpeg and NetCDF file
